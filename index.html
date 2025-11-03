@@ -12,13 +12,20 @@
     <div class="container">
         <h1>Fetch API</h1>
         <div class="form-container">
-            <form>
-                <input type="text" id="name" placeholder="Ange namn">
+            <form id ="nameForm">
+                <input type="text" 
+                    id="name" 
+                    name="namn" 
+                    autocomplete="off" 
+                    placeholder="Ange namn">
                 <button type="submit">Hämta</button>
             </form>
-            <p>Inget namn angivet</p>
+            <div id="result">
+                <p>Inget namn angivet</p>
+            </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
